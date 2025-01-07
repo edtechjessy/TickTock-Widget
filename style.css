@@ -7,13 +7,15 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5dc; /* Beige background */
     color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url('https://raw.githubusercontent.com/edtechjessy/TickTock-Widget/main/cat.jpg'); /* Cat image URL */
+    background-size: cover;
+    background-position: center;
 }
 
 .widget {
@@ -24,7 +26,7 @@ body {
     border: 2px solid #ccc;
     border-radius: 10px;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for the background */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -47,20 +49,6 @@ body {
     margin-top: 20px;
     width: 50px;
     height: 50px;
-    border-radius: 50%;  /* This makes it circular */
+    border-radius: 50%;  /* Makes it circular */
     object-fit: cover;   /* Ensures the image scales properly without stretching */
-    body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-image: url('https://raw.githubusercontent.com/edtechjessy/TickTock-Widget/main/cat.jpg'); /* Cat image URL */
-  background-size: cover;
-  background-position: center;
-  color: #333;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-    }
-}
 }
