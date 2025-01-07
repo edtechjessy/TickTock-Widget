@@ -1,56 +1,60 @@
 /* Basic reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Set the cat image as the background */
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-image: url('https://raw.githubusercontent.com/edtechjessy/TickTock-Widget/main/cat.jpg'); /* Cat image URL */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;  /* Keeps the background fixed during scrolling */
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-image: url('https://raw.githubusercontent.com/edtechjessy/TickTock-Widget/main/cat.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-.widget {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for the background */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 1;  /* Makes sure the widget appears above the background */
+/* Header styles */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  color: #fff; /* White text for better visibility */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
 }
 
-.clock {
-    margin: 10px;
+/* Container for the clocks */
+.clocks {
+  display: flex;
+  gap: 30px;
 }
 
-.clock .time {
-    font-size: 36px;
-    font-weight: bold;
+/* Styling for each clock box */
+.clock-box {
+  background: rgba(245, 245, 220, 0.8); /* Semi-transparent beige background */
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 250px;
 }
 
-.clock .label {
-    font-size: 14px;
-    margin-top: 5px;
+/* Clock title styles */
+.clock-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #555;
 }
 
-/* Styling for the cat image (if it's included as an element) */
-.cat-image {
-    margin-top: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;  /* Makes it circular */
-    object-fit: cover;   /* Ensures the image scales properly without stretching */
+/* Time styling */
+.time {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #333;
 }
