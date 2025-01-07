@@ -13,18 +13,6 @@ I wanted a quick visual reference for these two time zones when I open my laptop
 
 This widget will help me keep track of my teaching schedule and the time in my current location, all with a visual glance when I open my laptop.
 
-Getting Started
-
-These instructions will help you get the widget running on your local machine and display it on your desktop.
-
-Prerequisites
-
-Before you start, make sure you have the following tools installed:
-
-Node.js (if you want to package the widget into an Electron app for the desktop)
-
-Download Node.js from: https://nodejs.org/
-
 ---
 # In Progress
 # Turn It into a Desktop Widget Using Electron
