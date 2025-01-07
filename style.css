@@ -29,7 +29,7 @@ h1 {
   margin-bottom: 40px;
   position: absolute;
   top: 20px;
-  z-index: 2;
+  z-index: 2; /* Keeps the header on top of the image */
 }
 
 /* Container for the clocks */
@@ -38,10 +38,10 @@ h1 {
   gap: 30px;
   justify-content: center;
   position: absolute; /* This places it on top of the background image */
-  top: 50%; /* Vertically centers the clocks */
-  left: 50%; /* Horizontally centers the clocks */
-  transform: translate(-50%, -50%); /* Adjusts both axes to center the clocks */
-  z-index: 1; /* Ensures clocks are above the image but below the header */
+  top: 50%; /* Vertically center */
+  left: 50%; /* Horizontally center */
+  transform: translate(-50%, -50%); /* Corrects the offset for perfect centering */
+  z-index: 1; /* Ensure it's above the background image, but below the header */
 }
 
 /* Styling for each clock box */
@@ -52,7 +52,7 @@ h1 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   width: 250px;
-  z-index: 1; /* Ensures the clocks are above the background image */
+  z-index: 1; /* Ensure clocks are above the background image */
 }
 
 /* Clock title styles */
