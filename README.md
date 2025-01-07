@@ -14,30 +14,19 @@ I wanted a quick visual reference for these two time zones when I open my laptop
 This widget will help me keep track of my teaching schedule and the time in my current location, all with a visual glance when I open my laptop.
 
 ---
-# In Progress
+# Customizing Times
+##**_First Clone the Github Repository_**
+
+1. **Identify the correct time zone name**  
+   Look up the correct IANA time zone string (like `America/Sao_Paulo` for São Paulo or `Asia/Tokyo` for Tokyo).  
+
+2. **Update your code**  
+   Replace the existing time zone string in the code with the new one, depending on which region you want the time to display.
+![Screenshot_20250107_191104_Chrome](https://github.com/user-attachments/assets/c1042aa0-ee53-4ff9-a901-b0493f4c706d)
+
+   
 # Turn It into a Desktop Widget Using Electron
 
 ### Overview 🌟
 This project takes a simple clock widget created in HTML and turns it into a desktop application using **Electron**! Electron allows you to create cross-platform desktop apps with web technologies (HTML, CSS, JavaScript). This guide will show you how to use **Electron** to package your HTML clock into a desktop app that can be run on Windows, macOS, and Linux.
 
----
-
-### Getting Started 🚀
-
-#### Prerequisites 🔧
-Before you begin, make sure you have the following installed:
-
-- **Node.js** (Electron relies on Node.js to run). [Download Node.js](https://nodejs.org/)
-- **Git** (for version control). [Download Git](https://git-scm.com/)
-
-You’ll also need an existing **GitHub repository** where your HTML clock widget is saved.
-
----
-
-### Steps to Turn Your HTML Clock into a Desktop App Using Electron 🖥️
-
-#### 1. Clone Your GitHub Repository 🖱️
-First, clone the repository where you have saved your HTML clock widget (if you haven’t done that already):
-
-```bash
-git clone https://github.com/yourusername/simple-clock-widget.git
