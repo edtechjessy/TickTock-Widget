@@ -5,67 +5,17 @@
   box-sizing: border-box;
 }
 
-/* Set the cat image as the background */
+/* Set the cat image as the full background */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background-image: url('https://raw.githubusercontent.com/edtechjessy/TickTock-Widget/main/cat.jpg');
-  background-size: cover; /* This ensures the image covers the full screen */
+  background-size: cover; /* Ensures the image covers the entire page */
   background-position: center; /* Keeps the image centered */
-  background-attachment: fixed; /* Keeps the background in place when scrolling */
+  background-attachment: fixed; /* Keeps the image fixed in place */
   color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  position: relative; /* Allows absolute positioning inside */
-}
-
-/* Header styles */
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5em;
-  color: #fff;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-  margin-bottom: 40px;
-  position: absolute;
-  top: 20px;
-  z-index: 2; /* Keeps the header on top of the image */
-}
-
-/* Container for the clocks */
-.clocks {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  position: absolute; /* This places it on top of the background image */
-  top: 50%; /* Vertically center */
-  left: 50%; /* Horizontally center */
-  transform: translate(-50%, -50%); /* Corrects the offset for perfect centering */
-  z-index: 1; /* Ensure it's above the background image, but below the header */
-}
-
-/* Styling for each clock box */
-.clock-box {
-  background: rgba(245, 245, 220, 0.8); /* Semi-transparent beige background */
-  padding: 20px 30px;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  width: 250px;
-  z-index: 1; /* Ensure clocks are above the background image */
-}
-
-/* Clock title styles */
-.clock-title {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-  color: #555;
-}
-
-/* Time styling */
-.time {
-  font-size: 2.2em;
-  font-weight: bold;
-  color: #333;
+  height: 100vh; /* Full viewport height to make sure it covers the entire page */
 }
