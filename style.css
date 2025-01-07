@@ -49,5 +49,18 @@ body {
     height: 50px;
     border-radius: 50%;  /* This makes it circular */
     object-fit: cover;   /* Ensures the image scales properly without stretching */
+    body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-image: url('https://raw.githubusercontent.com/edtechjessy/TickTock-Widget/main/cat.jpg'); /* Cat image URL */
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+    }
 }
 }
