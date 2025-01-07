@@ -10,12 +10,60 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background-image: url('https://raw.githubusercontent.com/edtechjessy/TickTock-Widget/main/cat.jpg');
-  background-size: 100% 100%; /* Stretch the image to cover the entire page */
+  background-size: cover; /* Ensures the image fully covers the page */
   background-position: center; /* Keeps the image centered */
-  background-attachment: fixed; /* Keeps the image fixed in place */
-  color: #333;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height to make sure it covers the entire page */
+  position: relative; /* Keeps everything positioned relative to the body */
+}
+
+/* Header styles */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+  position: absolute;
+  top: 20px;
+  z-index: 2; /* Keeps the header on top of everything */
+}
+
+/* Container for the clocks */
+.clocks {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  position: relative; /* Keeps the clocks in normal flow */
+  top: 50%; /* Vertically center the clocks */
+  left: 50%; /* Horizontally center the clocks */
+  transform: translate(-50%, -50%); /* Perfectly centers the clocks */
+  z-index: 1; /* Keeps clocks in front of the background */
+}
+
+/* Styling for each clock box */
+.clock-box {
+  background: rgba(245, 245, 220, 0.8); /* Semi-transparent beige background */
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 250px;
+}
+
+/* Clock title styles */
+.clock-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Time styling */
+.time {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #333;
 }
