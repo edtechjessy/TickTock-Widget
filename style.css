@@ -33,6 +33,8 @@ h1 {
 .clocks {
   display: flex;
   gap: 30px;
+  justify-content: center; /* Ensures clocks are centered horizontally */
+  align-items: center; /* Ensures clocks are centered vertically */
 }
 
 /* Styling for each clock box */
