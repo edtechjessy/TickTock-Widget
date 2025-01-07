@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  position: relative; /* This allows absolute positioning inside */
+  position: relative; /* Allows absolute positioning inside */
 }
 
 /* Header styles */
@@ -41,7 +41,7 @@ h1 {
   top: 50%; /* Vertically center */
   left: 50%; /* Horizontally center */
   transform: translate(-50%, -50%); /* Corrects the offset for perfect centering */
-  z-index: 1; /* Ensure it's above the background image, but below the header */
+  z-index: 3; /* Ensure it's above the background image */
 }
 
 /* Styling for each clock box */
@@ -52,7 +52,7 @@ h1 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   width: 250px;
-  z-index: 1; /* Ensure clocks are above the background image */
+  z-index: 2; /* Ensure clocks are above the background image */
 }
 
 /* Clock title styles */
