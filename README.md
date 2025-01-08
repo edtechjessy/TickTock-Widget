@@ -10,6 +10,8 @@ I’m working on a minimalist desktop widget 🖥️ to display two clocks:
 
 
 I wanted a quick visual reference for these two time zones when I open my laptop 💻. It’s designed to be simple, beige, and include some cute cats 🐱 to make it more fun and personal!
+![chrome_screenshot_Jan 7, 2025 10_44_35 PM GMT-03_00](https://github.com/user-attachments/assets/bf050bc9-9d28-4dc8-b315-035a42b8eb87)
+
 
 This widget will help me keep track of my teaching schedule and the time in my current location, all with a visual glance when I open my laptop.
 
