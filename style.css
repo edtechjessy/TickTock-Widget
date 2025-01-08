@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TickTock Widget</title> /
 }
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
+    /* Set the color of the h1 to beige */
+h1 {
+  color: beige;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
 <body>
     <h1>World Clocks</h1>
     <div class="clocks">
