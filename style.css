@@ -1,11 +1,4 @@
-<!DOCTYPE css>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TickTock Widget</title> /
-}
-    /* Set the color of the h1 to beige */
+/* Set the color of the h1 to beige */
 h1 {
   color: beige;
   font-family: 'Playfair Display', serif;
@@ -13,19 +6,5 @@ h1 {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   margin-bottom: 40px;
 }
-<body>
-    <h1>World Clocks</h1>
-    <div class="clocks">
-        <div class="clock-box" id="ctTime">
-            <div class="clock-title">Chicago (CT)</div>
-            <div class="time"></div>
-        </div>
-        <div class="clock-box" id="spTime">
-            <div class="clock-title">São Paulo (SP)</div>
-            <div class="time"></div>
-        </div>
-    </div>
 
-    <script src="script.js"></script>
-</body>
-</html>
+/* Additional styles for other elements can go here */
