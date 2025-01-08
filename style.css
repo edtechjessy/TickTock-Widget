@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TickTock Widget</title>
+    <title>TickTock Widget</title> /* Selecting the title element */
+title {
+  /* Setting the color property to your liking */
+  color: AntiqueBeige;
+}
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
