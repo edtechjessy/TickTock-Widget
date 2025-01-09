@@ -1,7 +1,7 @@
 # Tick-Tock Widget  
 1. [How to Change the Time Zones](#customizing-the-times)
 2. [How to Change the Title](#customizing-the-title)
-3. [How to Create an AI Image](#customizing-the-image)
+3. [How to Create an AI Image for the bakckground](#customizing-the-image)
 4. [How to Upload the AI Image and Update Your Code](#how-to-upload-your-image-and-update-your-code)
 5. [How to Make it into a Dynamic Wallper on Desktop](#turn-it-into-your-desktop-background)
 ## Project Explanation  
