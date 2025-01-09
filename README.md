@@ -12,7 +12,7 @@ I wanted a quick visual reference for these two time zones when I open my laptop
 ![Final Result](https://github.com/user-attachments/assets/700b7829-8240-41e9-9424-43ccac304e0e)
 
 ---
-## Customizing Times
+## Customizing The Times
 #### **_First Clone the Github Repository_**
 
 1. **Identify the correct time zone name**  
@@ -23,7 +23,7 @@ I wanted a quick visual reference for these two time zones when I open my laptop
    Replace the existing time zone string in the code with the new one, depending on which region you want the time to display.
 ![Screenshot_20250107_191104_Chrome](https://github.com/user-attachments/assets/c1042aa0-ee53-4ff9-a901-b0493f4c706d)
 
-## Customizing The Website's Title
+## Customizing The Title
 #### **Make sure you are working on the _Cloned_ Github Repository**
 
 1. **Open Index.html**  
@@ -33,9 +33,8 @@ I wanted a quick visual reference for these two time zones when I open my laptop
 3. **Update your code**  
    Replace the existing title  with the new one, and save it.
 
-## How I created an Image using Cava AI and You can too :) 
-
-Creating an image with Canva AI is a straightforward and creative process. Here's how you can do it based on my own experience:  
+## Customizing the Image
+### How I created an Image with AI
 
 1. **Access Canva AI Tools**  
  https://www.canva.com/ai-image-generator/
@@ -66,11 +65,25 @@ Creating an image with Canva AI is a straightforward and creative process. Here'
 
  ![in anime style](https://github.com/user-attachments/assets/7ffd32dd-b7fb-473d-a7dc-77e4ea977de0) ![playful](https://github.com/user-attachments/assets/af09af68-b357-41ad-9479-0ae38d731f0f)
 
-11. **Save and Use**  
-   Once you've created an image you love, save it to your device and upload it to your github repository. Name your image:
+11. **Save** 
+   Once you've created an image you love, save it to your device.
+
+and upload it to your github repository. Name your image:
 insertname.jpg 
 
 By following this process, I was able to create an image I liked by carefully choosing my words, picking a style, and rerunning the generator until it felt just right. Have fun experimenting with Canva's AI to bring your ideas to life!
+
+## How to Upload Your Image and Update Your Code
+### Make sure to replace the correct copy path from the file that You uploaded
+1. ![upload](https://github.com/user-attachments/assets/6f38aba7-e7d3-4cc5-9497-1bf4be70a335)
+3. ![files](https://github.com/user-attachments/assets/edc49739-e764-4373-9815-cf393dd4c982)
+4. ![commit changes](https://github.com/user-attachments/assets/72cff64c-3bcd-4ec9-b422-932ef6f3c3fb)
+5. ![copy path late cat](https://github.com/user-attachments/assets/f244b889-79b6-4273-9222-88d5cb8c550e)
+6. ![ensure correct image path](https://github.com/user-attachments/assets/b37cf557-1f93-45f0-a42d-168fa80b7cc2)
+   
+
+
+
 
 
 
