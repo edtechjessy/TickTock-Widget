@@ -78,13 +78,47 @@ insertname.jpg
 
 By following this process, I was able to create an image I liked by carefully choosing my words, picking a style, and rerunning the generator until it felt just right. Have fun experimenting with Canva's AI to bring your ideas to life!
 
-## How to Upload Your Image and Update Your Code
-### Make sure to replace the correct copy path from the file that You uploaded
-1. ![upload](https://github.com/user-attachments/assets/6f38aba7-e7d3-4cc5-9497-1bf4be70a335)
-3. ![files](https://github.com/user-attachments/assets/edc49739-e764-4373-9815-cf393dd4c982)
-4. ![commit changes](https://github.com/user-attachments/assets/72cff64c-3bcd-4ec9-b422-932ef6f3c3fb)
-5. ![copy path late cat](https://github.com/user-attachments/assets/f244b889-79b6-4273-9222-88d5cb8c550e)
-6. ![ensure correct image path](https://github.com/user-attachments/assets/b37cf557-1f93-45f0-a42d-168fa80b7cc2)
+ ## How to Upload Your Image and Update Your Code  
+
+Follow these steps to upload your image and ensure it displays correctly in your project:  
+
+### Step 1: Upload Your Image  
+- Go to your GitHub repository and upload the image file.  
+- Use the **"Upload files"** option in the repository interface.  
+
+![Upload](https://github.com/user-attachments/assets/6f38aba7-e7d3-4cc5-9497-1bf4be70a335)  
+
+---
+
+### Step 2: Choose Your File  
+- After clciking upload file, click "choose file", select your image and click "open"
+
+![Files](https://github.com/user-attachments/assets/edc49739-e764-4373-9815-cf393dd4c982)  
+
+---
+
+### Step 3: Commit Your Changes  
+- Add a commit message (e.g., "Uploaded new background image") and click **"Commit changes"** to save your updates.  
+
+![Commit Changes](https://github.com/user-attachments/assets/72cff64c-3bcd-4ec9-b422-932ef6f3c3fb)  
+
+---
+
+### Step 4: Copy the File Path  
+- Locate your uploaded image in the repository, right-click on it, and select **"Copy file path."**  
+
+![Copy Path](https://github.com/user-attachments/assets/f244b889-79b6-4273-9222-88d5cb8c550e)  
+
+---
+
+### Step 5: Update the Image Path in Your Code  
+- Replace the placeholder image path in your code with the correct file path from Step 4. Ensure the file path is accurate to display the desired image.  
+
+![Ensure Correct Path](https://github.com/user-attachments/assets/b37cf557-1f93-45f0-a42d-168fa80b7cc2)  
+
+---
+
+By following these steps, your custom image should now display correctly in your project. Let me know if you encounter any issues!  
    
 
 
