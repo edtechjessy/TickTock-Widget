@@ -67,7 +67,8 @@ Creating an image with Canva AI is a straightforward and creative process. Here'
  ![in anime style](https://github.com/user-attachments/assets/7ffd32dd-b7fb-473d-a7dc-77e4ea977de0) ![playful](https://github.com/user-attachments/assets/af09af68-b357-41ad-9479-0ae38d731f0f)
 
 11. **Save and Use**  
-   Once you've created an image you love, save it to your device and upload it to your github repository. Name upload "image.mpg".
+   Once you've created an image you love, save it to your device and upload it to your github repository. Name your image:
+insertname.jpg 
 
 By following this process, I was able to create an image I liked by carefully choosing my words, picking a style, and rerunning the generator until it felt just right. Have fun experimenting with Canva's AI to bring your ideas to life!
 
