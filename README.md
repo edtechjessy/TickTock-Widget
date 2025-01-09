@@ -138,13 +138,14 @@ By following these steps, your custom image should now display correctly in your
 
 ### For Windows  
 - Use [Lively Wallpaper](https://livelywallpaper.net/) for dynamic wallpapers.
-- ![live wallpaper windows](https://github.com/user-attachments/assets/a4302008-c033-4079-ae90-e914b6ddb332)
+- ![add wallpaper](https://github.com/user-attachments/assets/9d01688a-1fa4-4383-82c2-5637ed106ae6)
+- ![enter URL wallpaper](https://github.com/user-attachments/assets/3b0b39e4-b506-484e-ae74-bf29c686c699)
 
 - Check their [GitHub repository](https://github.com/rocksdanister/lively).
 
   ### For Mac  
 - Use the [Splash App](https://splash.does-it.net/) for live wallpapers.  
-- Follow their [GitHub instructions](https://github.com/splashwallpaper/splash).  
+- Check out their Github [GitHub instructions](https://github.com/splashwallpaper/splash).  
 
 ### Overview 🌟
 
