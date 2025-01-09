@@ -1,4 +1,9 @@
 # Tick-Tock Widget  
+1. [How to Change the Time Zones](#customizing-the-times)
+2. [How to Change the Title](#customizing-the-title)
+3. [How to Create an AI Image](#customizing-the-image)
+4. [How to Upload the AI Image and Update Your Code](#how-to-upload-your-image-and-update-your-code)
+5. [How to Make it into a Dynamic Wallper on Desktop](#customizing-the-times)
 ## Project Explanation  
 I’m working on a minimalist desktop live wallpaper 🖥️ to display two clocks:  
 
@@ -6,6 +11,7 @@ I’m working on a minimalist desktop live wallpaper 🖥️ to display two cloc
 2. **São Paulo Time ⏰** (SP Time) – for where I currently live 🌎  
 
 I wanted a quick visual reference for these two time zones when I open my laptop 💻. It’s designed to be simple, beige, and include a cute cat 🐱 to make it more fun and personal! This personalized project will help me keep track of my teaching schedule and the time in my current location—*all with a visual glance when I open my laptop.*  
+
 
 ![Final Result](https://github.com/user-attachments/assets/700b7829-8240-41e9-9424-43ccac304e0e)  
 
