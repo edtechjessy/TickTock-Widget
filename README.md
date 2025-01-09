@@ -1,45 +1,50 @@
-# Tick-Tock Widget
-## Project Explanation
-I’m working on a minimalist desktop live wallpaper 🖥️ to display two clocks:
+# Tick-Tock Widget  
+## Project Explanation  
+I’m working on a minimalist desktop live wallpaper 🖥️ to display two clocks:  
 
-1. CT Time 🕰️ (Central Time) – for the schools I work with online 🏫
+1. **CT Time 🕰️** (Central Time) – for the schools I work with online 🏫  
+2. **São Paulo Time ⏰** (SP Time) – for where I currently live 🌎  
 
+I wanted a quick visual reference for these two time zones when I open my laptop 💻. It’s designed to be simple, beige, and include a cute cat 🐱 to make it more fun and personal! This personalized project will help me keep track of my teaching schedule and the time in my current location—*all with a visual glance when I open my laptop.*  
 
-2. São Paulo Time ⏰ (SP Time) – for where I currently live 🌎
-
-
-I wanted a quick visual reference for these two time zones when I open my laptop 💻. It’s designed to be simple, beige, and include a cute cat🐱 to make it more fun and personal! This personalized project will help me keep track of my teaching schedule and the time in my current location, *all with a visual glance when I open my laptop*.
-![Final Result](https://github.com/user-attachments/assets/700b7829-8240-41e9-9424-43ccac304e0e)
+![Final Result](https://github.com/user-attachments/assets/700b7829-8240-41e9-9424-43ccac304e0e)  
 
 ---
-## Customizing The Times
-#### **_First Clone the Github Repository_**
 
-1. **Identify the correct time zone name**  
-   Look up the correct IANA time zone string (like `America/Sao_Paulo` for São Paulo or `Asia/Tokyo` for Tokyo).
-  [Click here to find your IANA Time Zones of Interest](https://www.addevent.com/c/documentation/tools/time-zone-lookup)
+## Customizing the Times  
+### **Step 1: Clone the GitHub Repository**  
 
-3. **Update your code**  
-   Replace the existing time zone string in the code with the new one, depending on which region you want the time to display.
-![Screenshot_20250107_191104_Chrome](https://github.com/user-attachments/assets/c1042aa0-ee53-4ff9-a901-b0493f4c706d)
+1. **Find the Correct Time Zone Name**  
+   - Look up the correct IANA time zone string (e.g., `America/Sao_Paulo` for São Paulo or `Asia/Tokyo` for Tokyo).  
+   - Use this [IANA Time Zone Lookup Tool](https://www.addevent.com/c/documentation/tools/time-zone-lookup).  
 
-## Customizing The Title
-#### **Make sure you are working on the _Cloned_ Github Repository**
+2. **Update Your Code**  
+   - Replace the existing time zone string in the code with the one for your desired region.  
 
-1. **Open Index.html**  
-   Find the main title of a webpage represented by h1
- ![How to Change the Title](https://github.com/user-attachments/assets/2262f84d-d7df-44d9-9532-febcc6450796)
+![Screenshot_Example](https://github.com/user-attachments/assets/c1042aa0-ee53-4ff9-a901-b0493f4c706d)  
 
-3. **Update your code**  
-   Replace the existing title  with the new one, and save it.
+---
 
-## Customizing the Image
-### How I created an Image with AI
+## Customizing the Title  
+### **Step 1: Edit the Cloned Repository**  
 
-1. **Access Canva AI Tools**  
- https://www.canva.com/ai-image-generator/
+1. **Open `index.html`**  
+   - Locate the title of the webpage, typically represented by an `<h1>` tag.  
 
-![free generator](https://github.com/user-attachments/assets/35f42906-2ada-4bc6-bd5e-0334caf7f08b)
+2. **Update the Title**  
+   - Replace the existing title with your custom one and save the file.  
+
+![Change the Title](https://github.com/user-attachments/assets/2262f84d-d7df-44d9-9532-febcc6450796)  
+
+---
+
+## Customizing the Image  
+### How I Created an Image with Canva AI  
+
+1. **Access Canva's AI Image Generator**  
+   - Use Canva's AI tool: [https://www.canva.com/ai-image-generator/](https://www.canva.com/ai-image-generator/).  
+
+![Free Generator](https://github.com/user-attachments/assets/35f42906-2ada-4bc6-bd5e-0334caf7f08b) 
 
 3. **Choose Your Wording**  
    Start by thinking about the text prompt that describes the image you want. Be specific about the theme, mood, or key elements you want in the design. For example, you can describe the style, objects, and color palette.
