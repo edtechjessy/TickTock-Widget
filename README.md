@@ -1,9 +1,4 @@
 # Tick-Tock Widget  
-1. [How to Change the Time Zones](#customizing-the-times)
-2. [How to Change the Title](#customizing-the-title)
-3. [How to Create an AI Image for the bakckground](#customizing-the-image)
-4. [How to Upload the AI Image and Update Your Code](#how-to-upload-your-image-and-update-your-code)
-5. [How to Make it into a Dynamic Wallper on Desktop](#turn-it-into-your-desktop-background)
 ## Project Explanation  
 I’m working on a minimalist desktop live wallpaper 🖥️ to display two clocks:  
 
@@ -11,6 +6,12 @@ I’m working on a minimalist desktop live wallpaper 🖥️ to display two cloc
 2. **São Paulo Time ⏰** (SP Time) – for where I currently live 🌎  
 
 I wanted a quick visual reference for these two time zones when I open my laptop 💻. It’s designed to be simple, beige, and include a cute cat 🐱 to make it more fun and personal! This personalized project will help me keep track of my teaching schedule and the time in my current location—*all with a visual glance when I open my laptop.*  
+
+1. [How to Change the Time Zones](#customizing-the-times)
+2. [How to Change the Title](#customizing-the-title)
+3. [How to Create an AI Image for the bakckground](#customizing-the-image)
+4. [How to Upload the AI Image and Update Your Code](#how-to-upload-your-image-and-update-your-code)
+5. [How to Make it into a Dynamic Wallper on Desktop](#turn-it-into-your-desktop-background)
 
 
 ![Final Result](https://github.com/user-attachments/assets/700b7829-8240-41e9-9424-43ccac304e0e)  
@@ -134,9 +135,16 @@ By following these steps, your custom image should now display correctly in your
 
  
 ## Turn It into Your Desktop Background
-1. For MAC
-2. For Windowns
+
+### For Windows  
+- Use [Lively Wallpaper](https://livelywallpaper.net/) for dynamic wallpapers.
+- ![live wallpaper windows](https://github.com/user-attachments/assets/a4302008-c033-4079-ae90-e914b6ddb332)
+
+- Check their [GitHub repository](https://github.com/rocksdanister/lively).
+
+  ### For Mac  
+- Use the [Splash App](https://splash.does-it.net/) for live wallpapers.  
+- Follow their [GitHub instructions](https://github.com/splashwallpaper/splash).  
 
 ### Overview 🌟
-This project takes a simple clock widget created in HTML and turns it into a desktop application using **Electron**! Electron allows you to create cross-platform desktop apps with web technologies (HTML, CSS, JavaScript). This guide will show you how to use **Electron** to package your HTML clock into a desktop app that can be run on Windows, macOS, and Linux.
 
