@@ -23,6 +23,16 @@ I wanted a quick visual reference for these two time zones when I open my laptop
    Replace the existing time zone string in the code with the new one, depending on which region you want the time to display.
 ![Screenshot_20250107_191104_Chrome](https://github.com/user-attachments/assets/c1042aa0-ee53-4ff9-a901-b0493f4c706d)
 
+## Customizing The Website's Title
+#### **Make sure you are working on the _Cloned_ Github Repository**
+
+1. **Open Index.html**  
+   Find the main title of a webpage represented by h1
+ ![How to Change the Title](https://github.com/user-attachments/assets/2262f84d-d7df-44d9-9532-febcc6450796)
+
+3. **Update your code**  
+   Replace the existing title  with the new one, and save it.
+
 ## How I created an Image using Cava AI and You can too :) 
 
 Creating an image with Canva AI is a straightforward and creative process. Here's how you can do it based on my own experience:  
